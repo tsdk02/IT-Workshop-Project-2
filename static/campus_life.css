@@ -34,7 +34,7 @@
     width: 100%;
     height: 400px;
     background-color: #000;
-    background: url(resources/campus_life.jpeg);
+    background: url("/Assignment 2/resources/campus_life.jpeg");
     background-size: 100%
 }
 
