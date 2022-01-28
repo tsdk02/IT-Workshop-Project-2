@@ -83,7 +83,7 @@ body{
     display: flex;
     align-items: center;
     height:820px;
-    background-image: url("/Assignment 2/resources/background.jpg");
+    background-image: url("../resources/background.jpg");
     background-color:rgb(246,246,246);
     background-repeat: no-repeat;
     background-size: cover;
