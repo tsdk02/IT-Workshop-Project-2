@@ -170,9 +170,9 @@ def new_entry():
 
             csv_file2.close()
 
-            return "Added Successfully"
+            return json.dumps({"message": "Added successfully"})
         else:
-            return "Student already exists"
+            return json.dumps({"message": "Student already exists"})
 
     elif grade == "10":
         with open('grade_10_records.csv', 'r') as csv_file2:
@@ -189,9 +189,9 @@ def new_entry():
 
             csv_file2.close()
 
-            return "Added Successfully"
+            return json.dumps({"message": "Added successfully"})
         else:
-            return "Student already exists"
+            return json.dumps({"message": "Student already exists"})
 
     elif grade == "11":
         with open('grade_11_records.csv', 'r') as csv_file2:
@@ -208,9 +208,9 @@ def new_entry():
 
             csv_file2.close()
 
-            return "Added Successfully"
+            return json.dumps({"message": "Added successfully"})
         else:
-            return "Student already exists"
+            return json.dumps({"message": "Student already exists"})
 
 
     elif grade == "12":
@@ -228,9 +228,9 @@ def new_entry():
 
             csv_file2.close()
 
-            return "Added Successfully"
+            return json.dumps({"message": "Added successfully"})
         else:
-            return "Student already exists"
+            return json.dumps({"message": "Student already exists"})
 
 
 @app.route('/student-details-edit', methods=['PATCH'])
