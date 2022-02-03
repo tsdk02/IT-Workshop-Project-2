@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Cambridge - Login Page</title>
+    <title>Login | University of CambridgeLogin Page</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/8a/University_of_Cambridge_coat_of_arms.svg">
 </head>
 <body>
@@ -45,6 +45,9 @@
             <span>
                 <button class="box button" onclick="window.open('campus_life.html','_self')">Campus Life</button>
             </span>
+            <span>
+                <button class="box button" onclick="window.open('view_data.html','_self')">Students</button>
+            </span>
         </div>     
         <div>
             <button id="login" class="box button2" onclick="goToLogin()" onmouseover="mouseIn()" onmouseout="mouseOut()">Login</button>
@@ -60,9 +63,9 @@
             <div class="form-content">
                 <form>
                     <label class="label-tag" for="username">Username</label><br/>
-                    <input type="text" id="username" name="username" autocomplete="off" placeholder="admin"><br/><br/>
+                    <input class="input" type="text" id="username" name="username" autocomplete="off" placeholder="admin"><br/><br/>
                     <label class="label-tag" for="password">Password</label><br/>
-                    <input type="password" id="password" name="password" autocomplete="off" placeholder="admin"><br/><br/><br/>
+                    <input class="input" type="password" id="password" name="password" autocomplete="off" placeholder="admin"><br/><br/><br/>
                     <div class="form-content">
                         <a class="submit" onclick="login(event)">&nbsp;&nbsp;&nbsp;&nbsp;Submit&nbsp;&nbsp;&nbsp;&nbsp;</a>
                     </div>

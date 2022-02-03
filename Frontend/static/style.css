@@ -276,9 +276,9 @@ body{
 
 /* HTML Form */
 
-.form{
+#form{
     margin: 20px 60px;
-    height:575px;
+    height: auto;
     background-color:rgb(246,246,246);
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,6 +309,9 @@ body{
     width: 100%;
     padding: 10px;
 }
+select{
+    background-color: #fff;
+}
 .label-tag{
     margin: 8px;
     font-family: 'Open Sans', sans-serif;
@@ -319,7 +322,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
 }
-input{
+.input{
     width: 90%;
     padding: 12px 20px;
     margin: 8px;
