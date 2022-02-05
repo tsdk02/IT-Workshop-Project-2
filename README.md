@@ -15,4 +15,15 @@ Extension of IT Workshop Project 1
   - flask run
 
   ## Steps to run Backend Server on Windows :
-- 
+- Open the terminal in the Backend Folder
+- First install virtual environment through the following commands:
+  - pip install virtualenv
+- Crate a virtual environment through the following commands:
+  - virtualenv venv
+  - . .\venv\Scripts\activate.ps1
+  - pip install Flask
+  - pip install Flask-Cors
+  - set FLASK_APP=development
+  - set FLASK_APP='server.py'
+  - $env:FLASK_APP = "server.py"
+  - python -m flask run
